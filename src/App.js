@@ -1,11 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import First from './components/First';
 
 function HOp() {
   return (
      <div className="App">
         <div>
            <h2>This is Naim Biswas</h2>
+           <First></First>
         </div>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -20,7 +22,7 @@ function HOp() {
         >
           Learn React
         </a>
-      </header>
+        </header>
     </div>
   );
 }
