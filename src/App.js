@@ -1,9 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
+function HOp() {
   return (
-    <div className="App">
+     <div className="App">
+        <div>
+           <h2>This is Naim Biswas</h2>
+        </div>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p className='TryMe'>
@@ -22,4 +25,4 @@ function App() {
   );
 }
 
-export default App;
+export default HOp;
