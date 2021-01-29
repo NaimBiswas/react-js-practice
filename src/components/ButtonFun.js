@@ -2,11 +2,11 @@ import React from 'react'
 function ButtonFun() {
   
    return (
-      <button onClick={DoThis} >This is button</button>
+      <button onClick={DoThis.bind(this, 'THis is agrumend passed test')} >This is button</button>
    );
    // Button Click Fucntion 
-    function  DoThis() {
-      alert('This button has been clided');
+    function  DoThis(a) {
+      alert(a);
    };
 }
 
