@@ -2,10 +2,15 @@ import logo from './logo.svg';
 import './App.css';
 import First from './components/First';
 import Class from './components/Class';
+import ButtonFun from './components/ButtonFun';
 
 function HOp() {
    return (
       <div className="App">
+         {/* Function Based On click button  */}
+         <ButtonFun></ButtonFun>
+         
+         
         {/* class based funtin  */}
          <Class   name="Naim Biswas"  ></Class>
          <Class  name="Naim Biswas 1254"  ></Class>
