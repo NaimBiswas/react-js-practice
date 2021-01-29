@@ -9,8 +9,6 @@ export default class State extends Component{
          age: 12,
      } 
    }
-   
-   
    render() {
       return (
          <div>
@@ -20,3 +18,4 @@ export default class State extends Component{
       )
    };
 }
+
