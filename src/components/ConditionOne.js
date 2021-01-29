@@ -8,20 +8,18 @@ export default class ConditionOne extends Component {
       }
    }
    LogIn() {
-      this.setState({Login: false})
    }
    LogOut() {
-      this.setState({Login: true})
       
    }
    render() {
-      if (this.state.Login == true) {
+      if (this.state.Login === true) {
          return (
-         <button onClick={this.LogOut}></button>
+         <button className="btn btn-danger" onClick={this.LogOut}>Log Out</button>
        )
       } else {
          return (
-         <button onClick={this.LogIn}></button>
+         <button className="btn btn-success" onClick={this.LogIn}>Log In</button>
          )
       }
    }
