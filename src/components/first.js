@@ -1,9 +1,9 @@
 import React from 'react';
 
-function First() {
+function First(props) {
    return (
       <div>
-         <h3>This is body Section</h3>
+         <h3>This is { props.name }</h3>
       </div>
    );
 }

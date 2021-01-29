@@ -7,11 +7,16 @@ function HOp() {
    return (
       <div className="App">
         {/* class based funtin  */}
-         <Class></Class>
+         <Class ></Class>
+         
+         
          {/* function based function  */}
         <div>
            <h2>This is Naim Biswas</h2>
-           <First></First>
+           <First name="Naim"></First>
+           <First name="Biswas"></First>
+           <First name="Alamin"></First>
+           <First  name="Tuttul"></First>
          </div>
          {/* defualt function  */}
       <header className="App-header">
