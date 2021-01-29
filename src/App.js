@@ -4,13 +4,16 @@ import First from './components/First';
 import Class from './components/Class';
 
 function HOp() {
-  return (
-     <div className="App">
-        <Class></Class>
+   return (
+      <div className="App">
+        {/* class based funtin  */}
+         <Class></Class>
+         {/* function based function  */}
         <div>
            <h2>This is Naim Biswas</h2>
            <First></First>
-        </div>
+         </div>
+         {/* defualt function  */}
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p className='TryMe'>
