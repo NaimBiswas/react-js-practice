@@ -7,12 +7,15 @@ function HOp() {
    return (
       <div className="App">
         {/* class based funtin  */}
-         <Class  name="Naim Biswas"  ></Class>
+         <Class   name="Naim Biswas"  ></Class>
+         <Class  name="Naim Biswas 1254"  ></Class>
+         <Class  name="Naim Biswas 1254"  ></Class>
+         <Class  name="Naim Biswas 1254"  ></Class>
          
          
          {/* function based function  */}
         <div>
-           <h2>This is Naim Biswas</h2>
+           <h2 className=''>This is Naim Biswas</h2>
            <First name="Naim"   age="20"></First>
            <First name="Biswas" age="20"></First>
            <First name="Alamin" age="20"></First>
