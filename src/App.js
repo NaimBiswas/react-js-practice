@@ -3,10 +3,15 @@ import './App.css';
 import First from './components/First';
 import Class from './components/Class';
 import ButtonFun from './components/ButtonFun';
+import ButtonClass from './components/buttonClass';
 
 function HOp() {
    return (
       <div className="App">
+         {/* Class Based Button  */}
+         <ButtonClass></ButtonClass>
+            
+
          {/* Function Based On click button  */}
          <ButtonFun></ButtonFun>
          
