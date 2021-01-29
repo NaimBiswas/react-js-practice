@@ -3,7 +3,7 @@ import './App.css';
 import First from './components/First';
 import Class from './components/Class';
 import ButtonFun from './components/ButtonFun';
-import ButtonClass from './components/buttonClass';
+import ButtonClass from './components/ButtonClass';
 
 function HOp() {
    return (
