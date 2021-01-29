@@ -1,7 +1,10 @@
 import React from 'react'
 function ButtonFun() {
+   function  DoThis() {
+      alert('This button has been clided');
+   };
    return (
-      <button>This is button</button>
+      <button onClick={DoThis} >This is button</button>
    )
 }
 
