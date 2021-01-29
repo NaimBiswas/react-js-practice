@@ -8,10 +8,13 @@ import ButtonClass from './components/ButtonClass';
 import Welcome from './components/Welcome';
 import { ArrowFunction } from './components/ArrowFunction';
 import State from './components/State';
+import StateChange from './components/StateChange';
 
 function HOp() {
    return (
       <div className="App">
+         {/* State Change  */}
+         <StateChange></StateChange>
          {/* State Component  */}
          <State></State>
          {/* this is arrow Fucntin Test  */}
