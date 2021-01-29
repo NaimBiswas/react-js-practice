@@ -1,11 +1,20 @@
-import React from 'react'
+import React, { Component } from 'react'
 
-const Refesh = () => {
-   return (
-      <div>
-         
-      </div>
-   )
+export default class Refesh extends Component {
+   constructor () {
+      super()
+      
+            this.RefeshNow = this.RefeshNow.bind(this)
+   }
+   render() {
+      return (
+         <div>
+            <button onClick={this.RefeshNow}>Refesh</button>
+            <h1>{Math.random()}</h1>
+         </div>
+      )
+   }
+   RefeshNow() {
+      this.forceUpdate();
+   }
 }
-
-export default Refesh
