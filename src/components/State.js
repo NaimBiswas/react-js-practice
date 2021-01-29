@@ -5,7 +5,8 @@ export default class State extends Component{
       super()
       
       this.state = {
-        name: 'Naim Biswas',
+         name: 'Naim Biswas',
+         age: 12,
      } 
    }
    
@@ -14,6 +15,7 @@ export default class State extends Component{
       return (
          <div>
             <h3>{this.state.name}</h3>
+            <h3 className="text-info">{this.state.age}</h3>
          </div>
       )
    };
