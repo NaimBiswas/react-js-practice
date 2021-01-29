@@ -10,10 +10,13 @@ import { ArrowFunction } from './components/ArrowFunction';
 import State from './components/State';
 import StateChange from './components/StateChange';
 import ConditionOne from './components/ConditionOne';
+import Refesh from './components/Refesh';
 
 function HOp() {
    return (
       <div className="App">
+         {/* ForceUpdate  */}
+         <Refesh></Refesh>
          {/* Login LogOut Condition  */}
          <ConditionOne></ConditionOne>
          {/* State Change  */}
