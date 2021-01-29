@@ -9,7 +9,7 @@ export default class Refesh extends Component {
    render() {
       return (
          <div>
-            <button onClick={this.RefeshNow}>Refesh</button>
+            <button className="btn btn-warning btn-lg" onClick={this.RefeshNow}>Refesh</button>
             <h1>{Math.random()}</h1>
          </div>
       )
