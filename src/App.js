@@ -1,10 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
 import First from './components/First';
+import Class from './components/Class';
 
 function HOp() {
   return (
      <div className="App">
+        <Class></Class>
         <div>
            <h2>This is Naim Biswas</h2>
            <First></First>
