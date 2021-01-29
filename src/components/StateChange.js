@@ -8,7 +8,7 @@ export default class StateChange extends Component {
       }
    };
    
-    ChangeName(a) {
+   ChangeName(a) {
      this.setState({ name: a }) 
    };
    render() {
