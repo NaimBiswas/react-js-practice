@@ -6,10 +6,13 @@ import Class from './components/Class';
 import ButtonFun from './components/ButtonFun';
 import ButtonClass from './components/ButtonClass';
 import Welcome from './components/Welcome';
+import ArrowFunction from './components/ArrowFunction';
 
 function HOp() {
    return (
       <div className="App">
+         {/* this is arrow Fucntin Test  */}
+         <ArrowFunction></ArrowFunction>
          {/* Bootstrap Button  */}
          <Welcome></Welcome>
  
