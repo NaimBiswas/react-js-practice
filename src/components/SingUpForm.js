@@ -10,8 +10,22 @@ export default class SingUpForm extends Component {
          phone: '',
       }
    }
-   onChange = () => {
+   onChange = (event) => {
+      var Check1 = event.target.name;
+      var CheckTwo1 = event.target.value;
+      this.setState({[Check1] : CheckTwo1})
       
+      var Check2 = event.target.name;
+      var CheckTwo2 = event.target.value;
+      this.setState({ [Check2]: CheckTwo2 })
+      
+      var Check4 = event.target.name;
+      var CheckTwo4 = event.target.value;
+      this.setState({ [Check4]: CheckTwo4 })
+      
+      var Check3 = event.target.name;
+      var CheckTwo3 = event.target.value;
+      this.setState({[Check3] : CheckTwo3})
    }
    
    
