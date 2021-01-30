@@ -11,7 +11,10 @@ import ReactDOM from 'react-dom'
    function Myfun() {
       var container = document.getElementById('MyId');
       var element = <h2>My Name Is Naim Biswas</h2>;
-      ReactDOM.render(element, container);
+      var callback = () => {
+         alert('Hi I am from CallBack')
+      }
+      ReactDOM.render(element, container, callback);
    }
 }
 export default Reactdom;
