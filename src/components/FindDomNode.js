@@ -12,7 +12,7 @@ const FindDomNode = () => {
    )
    function ChangeImg() {
       var component = document.getElementById('Images');
-      ReactDOM.findDOMNode(component).style.background='red';
+      ReactDOM.findDOMNode(component).style.background='gray';
       
    }
 }
