@@ -16,10 +16,14 @@ import FindDomNode from "./components/FindDomNode";
 import Form from "./components/Form";
 import SingUpFrom from './components/SingUpForm'
 import Select from "./components/Select";
+import List from "./components/List";
+
 function HOp() {
    return (
       
       <div className="App">
+         {/* list render  */}
+         <List></List>
          {/* select option  */}
          <Select></Select>
          {/* SingUpform  */}
