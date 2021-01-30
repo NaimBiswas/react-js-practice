@@ -5,7 +5,7 @@ const FindDomNode = () => {
    return (
       <div>
          <button> Change logo</button>
-         <img  src={Logo} alt='Logo'></img>
+         <img className='col-sm-2'  src={Logo} alt='Logo'></img>
          <h3>Find DOM Node</h3>
       </div>
    )
