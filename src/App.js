@@ -24,24 +24,7 @@ import JsonList from "./components/JsonList";
 function HOp() {
    return (
       
-      <div className="App">
-         
-         
-
-
-
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
+      <div className="App"> 
          
          {/* Json List  */}
          <JsonList></JsonList>
