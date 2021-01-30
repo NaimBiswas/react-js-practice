@@ -17,11 +17,14 @@ import Form from "./components/Form";
 import SingUpFrom from './components/SingUpForm'
 import Select from "./components/Select";
 import List from "./components/List";
+import JsonList from "./components/JsonList";
 
 function HOp() {
    return (
       
       <div className="App">
+         {/* Json List  */}
+         <JsonList></JsonList>
          {/* list render  */}
          <List></List>
          {/* select option  */}
