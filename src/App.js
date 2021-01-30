@@ -14,10 +14,12 @@ import Refesh from "./components/Refesh";
 import  Reactdom  from "./components/Reactdom";
 import FindDomNode from "./components/FindDomNode";
 import Form from "./components/Form";
-
+import SingUpFrom from './components/SingUpForm'
 function HOp() {
    return (
       <div className="App">
+         {/* SingUpform  */}
+         <SingUpFrom></SingUpFrom>
          {/* React Form  */}
          <Form></Form>
          {/* Find Dom Node */}
