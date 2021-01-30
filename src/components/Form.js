@@ -2,12 +2,15 @@ import React from 'react'
 
 const Form = () => {
    return (
-      <div>
+      <div className='col-lg-12'>
          <h4>This is Form </h4>
-         <Form actions='' >
-            <input type="text" placeholder='Enter Your Text Here....'></input>
-            <input type='text' value='Submit Now'></input>
-         </Form>
+         <form >
+            <input type="text" className='form-control' placeholder='Enter Your Text Here....'></input> <br></br>
+            <input type='submit' className='form-control btn-outline-danger' value='Submit Now'></input> <br></br>
+         </form>
+           
+          
+       
       </div>
    )
 }
