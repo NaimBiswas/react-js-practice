@@ -7,11 +7,14 @@ export default class Select extends Component {
          name: 'Mirkamary',
       }
    }
-   
+   onChangeHandeler = (event) => {
+      var selectedValue = event.target.value;
+      this.setState({name: selectedValue})
+   }
    render() {
       return (
          <div>
-            <select value={this.state.name}>
+            <select onChange={this.onChangeHandeler} value={this.state.name}>
                <option>Dhaka </option>
                <option>Rajshahi</option>
                <option>Pabna</option>
