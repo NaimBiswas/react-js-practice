@@ -4,11 +4,33 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { Route, Link, BrowserRouter as Router } from 'react-router-dom'
+import About from './components/About';
+import Portfolio from './components/Portfolio';
+import SingUpForm from './components/SingUpForm';
 
+
+const MyRouter = (
+   <Router>
+      <nav className="nav justify-content-center">
+        <li className="nav-link active"> <Link to='/'>Home</Link></li>
+        <li className="nav-link" ><Link to='/about'>About</Link></li>
+        <li className="nav-link disabled" ><Link to='/portfolio'>Portfolio</Link></li>
+        <li className="nav-link disabled" >  <Link to='/singup'>SingUp</Link></li>
+      </nav>
+       <div>
+         <Route exact path='/' component={App}></Route>
+         <Route path='/about' component={About}></Route>
+         <Route path='/portfolio' component={Portfolio}></Route>
+         <Route path='/singup' component={SingUpForm}></Route>
+   </div>
+   
+   </Router>   
+)
+// ReactDOM.render(MyRouter, document.getElementById('root'))
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  
+    MyRouter,
+  
   document.getElementById('root')
 );
 
