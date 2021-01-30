@@ -14,18 +14,6 @@ export default class SingUpForm extends Component {
       var Check1 = event.target.name;
       var CheckTwo1 = event.target.value;
       this.setState({[Check1] : CheckTwo1})
-      
-      var Check2 = event.target.name;
-      var CheckTwo2 = event.target.value;
-      this.setState({ [Check2]: CheckTwo2 })
-      
-      var Check4 = event.target.name;
-      var CheckTwo4 = event.target.value;
-      this.setState({ [Check4]: CheckTwo4 })
-      
-      var Check3 = event.target.name;
-      var CheckTwo3 = event.target.value;
-      this.setState({[Check3] : CheckTwo3})
    }
    
    
@@ -39,7 +27,7 @@ export default class SingUpForm extends Component {
                
                <input onChange={this.onChange} type="email" placeholder='Enter Your Email Name' name='email' className='form-control'></input> <br></br>
                
-               <input onChange={this.onChange} type="number" placeholder='Enter Your Phone Name' name='phone' className='form-control'></input> <br></br>
+               <input onChange={this.onChange} type="number" placeholder='Enter Your Phone Number' name='phone' className='form-control'></input> <br></br>
                
                <input type='submit' value='Submit'></input>
                <br></br>
