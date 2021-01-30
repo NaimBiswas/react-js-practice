@@ -24,13 +24,17 @@ export default class Form extends Component {
       this.setState({[LastName]: NewLastName})
       
     }
-   
+   OnSubmitHandeler = () => {
+      alert(this.state.FirstName)
+      alert(this.state.MiddleName)
+      alert(this.state.LastName)
+   }
    
    render() {
       return (
       <div className='col-lg-12'>
          <h4>This is Form </h4>
-         <form >
+         <form onSubmit={this.OnSubmitHandeler}>
                <input name='FirstName' onChange={this.onCahngeHandelar} type="text" className='form-control' placeholder='Enter Your Text Here....'></input> <br></br>
                
                <input name='MiddleName' onChange={this.onCahngeHandelar} type="text" className='form-control' placeholder='Enter Your Text Here....'></input> <br></br>
