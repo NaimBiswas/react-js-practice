@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-export const Reactdom = () => {
+ const Reactdom = () => {
    
    return (
       <div>
@@ -12,3 +12,4 @@ export const Reactdom = () => {
       
    }
 }
+export default Reactdom;
