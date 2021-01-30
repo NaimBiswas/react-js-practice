@@ -4,23 +4,23 @@ export default class JsonList extends Component {
    render() {
       const myJsonList = [
          {
-            city: 'Dhaka',
-            zip: '6000'
+            city: 'Dfachaka',
+            zip: '6000afsd'
          }, {
-            city: 'Dhaka',
-            zip: '6000'
+            city: 'Dhaadfka',
+            zip: '60sdfa00'
          }, {
-            city: 'Dhaka',
-            zip: '6000'
+            city: 'Dhasadfka',
+            zip: '600fa0'
          }, {
-            city: 'Dhaka',
-            zip: '6000'
+            city: 'Dhadsafka',
+            zip: '60dfsa00'
          }, {
-            city: 'Dhaka',
-            zip: '6000'
+            city: 'Dhakaadsf',
+            zip: '6adf000'
          }, {
-            city: 'Dhaka',
-            zip: '6000'
+            city: 'Dhaka21',
+            zip: '600sdaf0'
          },
       ]
       const data = myJsonList.map((allList) => {
