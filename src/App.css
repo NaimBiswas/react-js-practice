@@ -1,6 +1,17 @@
 .App {
   text-align: center;
 }
+.UlSyle{
+   list-style: none;
+   padding: 0;
+}
+.LISYYLE{
+    background: #0b0b0b26;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+}
 .paddingBottom{
     margin-top: 50px;
     margin-bottom: 90px;

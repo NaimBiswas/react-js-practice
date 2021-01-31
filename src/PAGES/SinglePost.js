@@ -103,8 +103,34 @@ export class SinglePost extends Component {
                   <h2 className='text-warning text-uppercase mt-4 adfadf '>Search</h2>
                      <input type='text' className='form-control col-lg-9' placeholder='Seacrch....'></input>
                      <button className='col-lg-3 btn btn-outline-danger btn-md'>Search</button>
-                     
                   </div>
+                  {/* Category Here  */}
+                  <h2 className='text-warning text-uppercase mt-4 adfadf '>Categories</h2>
+                  <ul className='UlSyle'>
+                     <li  className=' text-danger h6 blod pl-4 pt-2 pb-2 text-uppercase LISYYLE'>
+                        Larave 8
+                     </li>
+                     <li  className=' text-danger h6 blod pl-4 pt-2 pb-2 text-uppercase LISYYLE'>
+                        React v19.0
+                     </li>
+                     <li  className=' text-danger h6 blod pl-4 pt-2 pb-2 text-uppercase LISYYLE'>
+                        Vuejs 3
+                     </li>
+                     <li  className=' text-danger h6 blod pl-4 pt-2 pb-2 text-uppercase LISYYLE'>
+                        Javascript ES6
+                     </li>
+                     <li  className=' text-danger h6 blod pl-4 pt-2 pb-2 text-uppercase LISYYLE'>
+                        HTML5
+                     </li>
+                     <li  className=' text-danger h6 blod pl-4 pt-2 pb-2 text-uppercase LISYYLE'>
+                        CSS4
+                     </li>
+                     <li  className=' text-danger h6 blod pl-4 pt-2 pb-2 text-uppercase LISYYLE'>
+                        Bootstrap 5
+                     </li>
+                     
+                     
+                  </ul>
                </div>
             </div>
          </div>
