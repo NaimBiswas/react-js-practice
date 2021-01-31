@@ -188,12 +188,34 @@ export class SinglePost extends Component {
                            <li  className=' h6 blod pl-4 pt-2 pb-2 POstLISYYLE'>
                              This is your some popular post title
                            </li>
-                        </ul>
-                  
-               
-              
-              
-              
+                  </ul>
+                  {/* Newslater FOrm  */}
+                  <h2 className='text-warning text-uppercase mt-4 adfadf '>Newslatter</h2>
+                  <table className='table table-bordered'>
+                     <form>
+                        <thead>
+                           <tr>
+                              <td>
+                              <span className='text-secondary h6'> News Letter </span>
+                              </td>
+                           </tr>
+                        </thead>
+                        <tbody>
+                           <tr>
+                              <td>
+                                 <input className='form-control' type='email' placeholder='Enter Your Email For News Latter....' />
+                              </td>
+                           </tr>
+                        </tbody>
+                        <tfoot>
+                           <tr>
+                              <td>
+                                 <button className='float-right btn btn-outline-success btn-md'>Subscribe</button>
+                              </td>
+                           </tr>
+                     </tfoot>
+                  </form>
+                  </table>
                </div>
             </div>
          </div>
