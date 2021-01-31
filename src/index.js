@@ -5,11 +5,10 @@ import './index.css';
 import  '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import reportWebVitals from './reportWebVitals';
 import { Route, Link, BrowserRouter as Router} from 'react-router-dom'
-import About from './components/About';
-import Portfolio from './components/Portfolio';
 import SingUpForm from './components/SingUpForm';
 import Home from './PAGES/Home';
 import Footer from './PAGES/Footer';
+import Login from './PAGES/Login';
 
 
 const MyRouter = (
@@ -18,16 +17,24 @@ const MyRouter = (
    
    <div className='container pt-4 pb-4 text-white'>
         <Router>
-      <nav className="nav justify-content-center">
-        <li className="nav-link  active"> <Link className='text-white bg-danger p-3' to='/'>Home</Link></li>
-        <li className="nav-link " ><Link className='text-white bg-danger p-3' to='/about'>About</Link></li>
-        <li className="nav-link " ><Link className='text-white bg-danger p-3' to='/portfolio'>Portfolio</Link></li>
-        <li className="nav-link " >  <Link className='text-white bg-danger p-3' to='/singup'>SingUp</Link></li>
+        <nav className="nav justify-content-center">
+        <li className="nav-link  active"> 
+        <Link className='text-white bg-danger p-3' to='/'>Home</Link>
+        </li>
+       
+         <li className="nav-link " >
+            <Link className='text-white bg-danger p-3' to='/singup'>SingUp</Link>
+         </li>
+         
+         <li className="nav-link " >
+            <Link className='text-white bg-danger p-3' to='/login'>Login</Link>
+         </li>
+               
+               
       </nav>
        <div>
-          <Route exact path='/' component={Home}></Route>
-         <Route path='/about' component={About}></Route>
-         <Route path='/portfolio' component={Portfolio}></Route>
+         <Route exact path='/' component={Home}></Route>
+         <Route path='/login' component={Login}></Route>
          <Route path='/singup' component={SingUpForm}></Route>
    </div>
        
