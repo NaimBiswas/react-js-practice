@@ -17,14 +17,48 @@ export default class SingUpForm extends Component {
                   <tr>
                   <td>
                      <form>
+                        {/* First name section        */}
                         <div className="form-group">
-                           <label className='text-secondary'>Help text</label>
+                           <label  className='text-secondary'>First Name</label>
+                           <input type="text" name="" id="fistname" className="form-control" placeholder=""      aria-describedby="helpId"/>
+                           </div>
+                           {/* First name section        */}
+                        <div className="form-group">
+                           <label className='text-secondary'>Last Name</label>
                            <input type="text" name="" id="" className="form-control" placeholder=""      aria-describedby="helpId"/>
-                       </div>      
+                           </div>
+                           {/* First name section        */}
+                        <div className="form-group">
+                           <label className='text-secondary'>E-mail</label>
+                           <input type="text" name="" id="" className="form-control" placeholder=""      aria-describedby="helpId"/>
+                           </div>
+                           {/* First name section        */}
+                        <div className="form-group">
+                           <label className='text-secondary'>Phone Number</label>
+                           <input type="text" name="" id="" className="form-control" placeholder=""      aria-describedby="helpId"/>
+                           </div>
+                           {/* First name section        */}
+                        <div className="form-group">
+                           <label className='text-secondary'>Password</label>
+                           <input type="text" name="" id="" className="form-control" placeholder=""      aria-describedby="helpId"/>
+                           </div>
+                           {/* First name section        */}
+                        <div className="form-group">
+                           <label className='text-secondary'>Confirm Password</label>
+                           <input type="text" name="" id="" className="form-control" placeholder=""      aria-describedby="helpId"/>
+                           </div>
                     </form>
                   </td>
                </tr>
                </tbody>
+               <tfoot>
+                  <tr>
+                     <td>
+                        
+                        <button className='btn  btn-outline-success btn-md'>Submit</button>
+                     </td>
+                  </tr>
+               </tfoot>
             </table>
          </div>
       )
