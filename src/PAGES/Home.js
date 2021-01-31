@@ -16,7 +16,7 @@ export class Home extends Component {
                {/* This is one card  */}
                <div className='card-gorup col-lg-3 col-md-6 col-sm-12 mt-2'>
                   <div className='card'>
-                     <img className='card-img-top imageHeight' src={ BlogImage } alt='Card Image'></img>
+                     <img className='card-img-top imageHeight' src={ BlogImage } alt='Card'></img>
                      <div className='card-body'>
                         <h4 className='text-secondary mt-1'>
                            This is card header
@@ -32,7 +32,7 @@ export class Home extends Component {
                {/* This is one card  */}
                <div className='card-gorup col-lg-3 col-md-6 col-sm-12 mt-2'>
                   <div className='card'>
-                     <img className='card-img-top imageHeight' src={ BlogImage } alt='Card Image'></img>
+                     <img className='card-img-top imageHeight' src={ BlogImage } alt='Card'></img>
                      <div className='card-body'>
                         <h4 className='text-secondary mt-1'>
                            This is card header
@@ -48,7 +48,7 @@ export class Home extends Component {
                {/* This is one card  */}
                <div className='card-gorup col-lg-3 col-md-6 col-sm-12 mt-2'>
                   <div className='card'>
-                     <img className='card-img-top imageHeight' src={ BlogImage } alt='Card Image'></img>
+                     <img className='card-img-top imageHeight' src={ BlogImage } alt='Card'></img>
                      <div className='card-body'>
                         <h4 className='text-secondary mt-1'>
                            This is card header
@@ -64,7 +64,7 @@ export class Home extends Component {
                {/* This is one card  */}
                <div className='card-gorup col-lg-3 col-md-6 col-sm-12 mt-2'>
                <div className='card'>
-                  <img className='card-img-top imageHeight' src={ BlogImage } alt='Card Image'></img>
+                  <img className='card-img-top imageHeight' src={ BlogImage } alt='Card'></img>
                   <div className='card-body'>
                      <h4 className='text-secondary mt-1'>
                         This is card header
@@ -87,7 +87,7 @@ export class Home extends Component {
               {/* This is one card  */}
             <div className='card-gorup col-lg-3 col-md-6 col-sm-12 mt-2'>
                <div className='card'>
-                  <img className='card-img-top imageHeight' src={ BlogImage } alt='Card Image'></img>
+                  <img className='card-img-top imageHeight' src={ BlogImage } alt='Card'></img>
                   <div className='card-body'>
                      <h4 className='text-secondary mt-1'>
                         This is card header
@@ -103,7 +103,7 @@ export class Home extends Component {
               {/* This is one card  */}
             <div className='card-gorup col-lg-3 col-md-6 col-sm-12 mt-2'>
                <div className='card'>
-                  <img className='card-img-top imageHeight' src={ BlogImage } alt='Card Image'></img>
+                  <img className='card-img-top imageHeight' src={ BlogImage } alt='Card'></img>
                   <div className='card-body'>
                      <h4 className='text-secondary mt-1'>
                         This is card header
@@ -119,7 +119,7 @@ export class Home extends Component {
               {/* This is one card  */}
             <div className='card-gorup col-lg-3 col-md-6 col-sm-12 mt-2'>
                <div className='card'>
-                  <img className='card-img-top imageHeight' src={ BlogImage } alt='Card Image'></img>
+                  <img className='card-img-top imageHeight' src={ BlogImage } alt='Card'></img>
                   <div className='card-body'>
                      <h4 className='text-secondary mt-1'>
                         This is card header
@@ -135,7 +135,7 @@ export class Home extends Component {
               {/* This is one card  */}
             <div className='card-gorup col-lg-3 col-md-6 col-sm-12 mt-2'>
                <div className='card'>
-                  <img className='card-img-top imageHeight' src={ BlogImage } alt='Card Image'></img>
+                  <img className='card-img-top imageHeight' src={ BlogImage } alt='Card'></img>
                   <div className='card-body'>
                      <h4 className='text-secondary mt-1'>
                         This is card header
@@ -157,7 +157,7 @@ export class Home extends Component {
               {/* This is one card  */}
             <div className='card-gorup col-lg-3 col-md-6 col-sm-12 mt-2'>
                <div className='card'>
-                  <img className='card-img-top imageHeight' src={ BlogImage } alt='Card Image'></img>
+                  <img className='card-img-top imageHeight' src={ BlogImage } alt='Card'></img>
                   <div className='card-body'>
                      <h4 className='text-secondary mt-1'>
                         This is card header
@@ -173,7 +173,7 @@ export class Home extends Component {
               {/* This is one card  */}
             <div className='card-gorup col-lg-3 col-md-6 col-sm-12 mt-2'>
                <div className='card'>
-                  <img className='card-img-top imageHeight' src={ BlogImage } alt='Card Image'></img>
+                  <img className='card-img-top imageHeight' src={ BlogImage } alt='Card'></img>
                   <div className='card-body'>
                      <h4 className='text-secondary mt-1'>
                         This is card header
@@ -189,7 +189,7 @@ export class Home extends Component {
               {/* This is one card  */}
             <div className='card-gorup col-lg-3 col-md-6 col-sm-12 mt-2'>
                <div className='card'>
-                  <img className='card-img-top imageHeight' src={ BlogImage } alt='Card Image'></img>
+                  <img className='card-img-top imageHeight' src={ BlogImage } alt='Card'></img>
                   <div className='card-body'>
                      <h4 className='text-secondary mt-1'>
                         This is card header
@@ -205,7 +205,7 @@ export class Home extends Component {
               {/* This is one card  */}
             <div className='card-gorup col-lg-3 col-md-6 col-sm-12 mt-2'>
                <div className='card'>
-                  <img className='card-img-top imageHeight' src={ BlogImage } alt='Card Image'></img>
+                  <img className='card-img-top imageHeight' src={ BlogImage } alt='Card'></img>
                   <div className='card-body'>
                      <h4 className='text-secondary mt-1'>
                         This is card header
@@ -230,7 +230,7 @@ export class Home extends Component {
               {/* This is one card  */}
             <div className='card-gorup col-lg-3 col-md-6 col-sm-12 mt-2'>
                <div className='card'>
-                  <img className='card-img-top imageHeight' src={ BlogImage } alt='Card Image'></img>
+                  <img className='card-img-top imageHeight' src={ BlogImage } alt='Card'></img>
                   <div className='card-body'>
                      <h4 className='text-secondary mt-1'>
                         This is card header
@@ -246,7 +246,7 @@ export class Home extends Component {
               {/* This is one card  */}
             <div className='card-gorup col-lg-3 col-md-6 col-sm-12 mt-2'>
                <div className='card'>
-                  <img className='card-img-top imageHeight' src={ BlogImage } alt='Card Image'></img>
+                  <img className='card-img-top imageHeight' src={ BlogImage } alt='Card'></img>
                   <div className='card-body'>
                      <h4 className='text-secondary mt-1'>
                         This is card header
@@ -262,7 +262,7 @@ export class Home extends Component {
               {/* This is one card  */}
             <div className='card-gorup col-lg-3 col-md-6 col-sm-12 mt-2'>
                <div className='card'>
-                  <img className='card-img-top imageHeight' src={ BlogImage } alt='Card Image'></img>
+                  <img className='card-img-top imageHeight' src={ BlogImage } alt='Card'></img>
                   <div className='card-body'>
                      <h4 className='text-secondary mt-1'>
                         This is card header
@@ -278,7 +278,7 @@ export class Home extends Component {
               {/* This is one card  */}
             <div className='card-gorup col-lg-3 col-md-6 col-sm-12 mt-2'>
                <div className='card'>
-                  <img className='card-img-top imageHeight' src={ BlogImage } alt='Card Image'></img>
+                  <img className='card-img-top imageHeight' src={ BlogImage } alt='Card'></img>
                   <div className='card-body'>
                      <h4 className='text-secondary mt-1'>
                         This is card header
