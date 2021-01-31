@@ -9,6 +9,7 @@ import SingUpForm from './components/SingUpForm';
 import Home from './PAGES/Home';
 import Footer from './PAGES/Footer';
 import Login from './PAGES/Login';
+import SinglePost from './PAGES/SinglePost';
 
 
 const MyRouter = (
@@ -17,9 +18,14 @@ const MyRouter = (
    
    <div className='container pt-4 pb-4 text-white'>
         <Router>
-        <nav className="nav justify-content-center">
+         <nav className="nav justify-content-center">
+               
         <li className="nav-link  active"> 
-        <Link className='text-white bg-info pl-3 pr-3 pt-2 pb-2 nav-link' to='/'>Home</Link>
+            <Link className='text-white bg-info pl-3 pr-3 pt-2 pb-2 nav-link' to='/'>Home</Link>
+         </li>
+               
+         <li className="nav-link  active"> 
+        <Link className='text-white bg-info pl-3 pr-3 pt-2 pb-2 nav-link' to='/post'>Home</Link>
         </li>
        
          <li className="nav-link " >
@@ -34,6 +40,7 @@ const MyRouter = (
       </nav>
        <div>
          <Route exact path='/' component={Home}></Route>
+         <Route exact path='/post' component={SinglePost}></Route>
          <Route path='/login' component={Login}></Route>
          <Route path='/singup' component={SingUpForm}></Route>
    </div>
