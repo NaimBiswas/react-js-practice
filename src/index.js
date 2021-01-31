@@ -25,7 +25,7 @@ const MyRouter = (
          </li>
                
          <li className="nav-link  active"> 
-        <Link className='text-white bg-info pl-3 pr-3 pt-2 pb-2 nav-link' to='/post'>Home</Link>
+        <Link className='text-white bg-info pl-3 pr-3 pt-2 pb-2 nav-link' to='/post'>Single Post</Link>
         </li>
        
          <li className="nav-link " >

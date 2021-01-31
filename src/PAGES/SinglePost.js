@@ -1,10 +1,106 @@
 import React, { Component } from 'react'
-
+import '../App.css'
+import Image from '../blogimage.png'
 export class SinglePost extends Component {
    render() {
       return (
-         <div>
-            THis is simgle post page 
+         <div className='text-secondary'>
+            <div className='row'>
+               {/* Left Side Bar  */}
+               <div className='col-lg-8'>
+                  <h2 className='text-warning text-uppercase  adfadf'>Post Deatils</h2>
+                  {/* Post Image  */}
+                  <img className='ImageResponsive' src={Image} alt='Poster' />
+                  {/* Post Title  */}
+                  <h2 className='mt-4'>This is Your Post Title area</h2>
+                  <p>
+                     This is our post description This is our post description This is our post description This is our post description This is our post description This is our post description This is our post description This is our post description This is our post description This is our post description This is our post description This is our post description This is our post description This is our post description This is our post description This is our post description This is our post description This is our post description This is our post description This is our post description This is our post description This is our post description This is our post description This is our post description This is our post description This is our post description This is our post description This is our post description This is our post description This is our post description This is our post description 
+                  </p>
+                  {/* Post Tag Here  */}
+                  <h2 className='text-warning text-uppercase mt-4'>#Tags</h2>
+                  <div className='d-flex'>
+                     <span className='bagde bg-danger text-white pl-2 pr-2 pt-1 pb-1 m-1'>Laravel</span>
+                     <span className='bagde bg-info text-white pl-2 pr-2 pt-1 pb-1 m-1'>React</span>
+                     <span className='bagde bg-success text-white pl-2 pr-2 pt-1 pb-1 m-1'>Vue</span>
+                     <span className='bagde bg-warning text-white pl-2 pr-2 pt-1 pb-1 m-1'>Html</span>
+                     <span className='bagde bg-secondary text-white pl-2 pr-2 pt-1 pb-1 m-1'>Css</span>
+                     <span className='bagde bg-success text-white pl-2 pr-2 pt-1 pb-1 m-1'>Javascript</span>
+                     <span className='bagde bg-info text-white pl-2 pr-2 pt-1 pb-1 m-1'>Router</span>
+                  </div>
+                  {/* Realeted Post Here  */}
+                  <h2 className='text-warning text-uppercase mt-4 adfadf'>Recomended For You</h2>
+                  <div className='row'>
+                  {/* This is one card  */}
+                     <div className='card-gorup col-lg-6 col-md-6 col-sm-12 mt-2'>
+                        <div className='card'>
+                           <img className='card-img-top imageHeight' src={ Image } alt='Card'></img>
+                           <div className='card-body'>
+                              <h4 className='text-secondary mt-1'>
+                                 This is card header
+                              </h4>
+                              <p className='text-secondary mt-2'>
+                                 This is explame text This is explame text This is explame textThis is explame textThis is explame textThis is explame textThis is explame
+                              </p>
+                              <button className='btn btn-info btn-md'>Read More</button>
+                           </div>
+                        </div>
+                     </div>
+                  
+                     {/* This is one card  */}
+                     <div className='card-gorup col-lg-6 col-md-6 col-sm-12 mt-2'>
+                        <div className='card'>
+                           <img className='card-img-top imageHeight' src={ Image } alt='Card'></img>
+                           <div className='card-body'>
+                              <h4 className='text-secondary mt-1'>
+                                 This is card header
+                              </h4>
+                              <p className='text-secondary mt-2'>
+                                 This is explame text This is explame text This is explame textThis is explame textThis is explame textThis is explame textThis is explame
+                              </p>
+                              <button className='btn btn-info btn-md'>Read More</button>
+                           </div>
+                        </div>
+                     </div>
+                     
+                     {/* This is one card  */}
+                     <div className='card-gorup col-lg-6 col-md-6 col-sm-12 mt-2'>
+                        <div className='card'>
+                           <img className='card-img-top imageHeight' src={ Image } alt='Card'></img>
+                           <div className='card-body'>
+                              <h4 className='text-secondary mt-1'>
+                                 This is card header
+                              </h4>
+                              <p className='text-secondary mt-2'>
+                                 This is explame text This is explame text This is explame textThis is explame textThis is explame textThis is explame textThis is explame
+                              </p>
+                              <button className='btn btn-info btn-md'>Read More</button>
+                           </div>
+                        </div>
+                     </div>
+                     
+                     {/* This is one card  */}
+                     <div className='card-gorup col-lg-6 col-md-6 col-sm-12 mt-2'>
+                     <div className='card'>
+                        <img className='card-img-top imageHeight' src={ Image } alt='Card'></img>
+                        <div className='card-body'>
+                           <h4 className='text-secondary mt-1'>
+                              This is card header
+                           </h4>
+                           <p className='text-secondary mt-2'>
+                              This is explame text This is explame text This is explame textThis is explame textThis is explame textThis is explame textThis is explame
+                           </p>
+                           <button className='btn btn-info btn-md'>Read More</button>
+                        </div>
+                  </div>
+            </div>
+            </div>
+               {/* End of Pupular post section  */}
+               </div>
+               {/* Right Side Bar  */}
+               <div className='col-lg-4'>
+                  
+               </div>
+            </div>
          </div>
       )
    }
