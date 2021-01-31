@@ -2,9 +2,10 @@ import React, { Component } from 'react'
 import "../App.css"
 import { Route, Link, BrowserRouter as Router} from 'react-router-dom'
 import Home from '../PAGES/Home'
+import Login from '../PAGES/Login'
 export default class SingUpForm extends Component {
    render() {
-      <Router><Route path='/' component={Home}></Route></Router>
+      <Router><Route path='/' component={Home}></Route> <Route path='/login' component={Login}></Route></Router>
       return (
          <div className='pt-4 col-lg-8 offset-lg-2'>
             <table className='table table-bordered'>
@@ -60,7 +61,7 @@ export default class SingUpForm extends Component {
                      <td>
                         
                         <button className='btn  btn-outline-success btn-md'>Submit</button>
-                       <span className='float-right'> If You Are Already Register Please Log-In </span>
+                       <span className='float-right'> If You Are Already Register Please <Link to='/login'>Log-In</Link>   </span>
                      </td>
                   </tr>
                </tfoot>
