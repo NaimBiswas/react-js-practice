@@ -25,32 +25,32 @@ export default class SingUpForm extends Component {
                         {/* First name section        */}
                         <div className="form-group">
                            <label  className='text-secondary'>First Name</label>
-                           <input type="text" name="" id="fistname" className="form-control" placeholder=""      aria-describedby="helpId"/>
+                           <input type="text" name="" id="fistname" className="form-control" placeholder="Enter Your First Name"      aria-describedby="helpId"/>
                            </div>
                            {/* First name section        */}
                         <div className="form-group">
                            <label className='text-secondary'>Last Name</label>
-                           <input type="text" name="" id="" className="form-control" placeholder=""      aria-describedby="helpId"/>
+                           <input type="text" name="" id="" className="form-control" placeholder="Enter Your Last Name"      aria-describedby="helpId"/>
                            </div>
                            {/* First name section        */}
                         <div className="form-group">
                            <label className='text-secondary'>E-mail</label>
-                           <input type="text" name="" id="" className="form-control" placeholder=""      aria-describedby="helpId"/>
+                           <input type="email" name="" id="" className="form-control" placeholder="Enter Your Email Address"      aria-describedby="helpId"/>
                            </div>
                            {/* First name section        */}
                         <div className="form-group">
                            <label className='text-secondary'>Phone Number</label>
-                           <input type="text" name="" id="" className="form-control" placeholder=""      aria-describedby="helpId"/>
+                           <input type="number" name="" id="" className="form-control" placeholder="Enter Your Phone Number"      aria-describedby="helpId"/>
                            </div>
                            {/* First name section        */}
                         <div className="form-group">
                            <label className='text-secondary'>Password</label>
-                           <input type="text" name="" id="" className="form-control" placeholder=""      aria-describedby="helpId"/>
+                           <input type="password" name="" id="" className="form-control" placeholder="Enter Your Password"      aria-describedby="helpId"/>
                            </div>
                            {/* First name section        */}
                         <div className="form-group">
                            <label className='text-secondary'>Confirm Password</label>
-                           <input type="text" name="" id="" className="form-control" placeholder=""      aria-describedby="helpId"/>
+                           <input type="password" name="" id="" className="form-control" placeholder="Confirm Your Password"      aria-describedby="helpId"/>
                            </div>
                     </form>
                   </td>
