@@ -11,6 +11,7 @@
     font-size: 18px;
     font-weight: 800;
     letter-spacing: 1.5px;
+    cursor: pointer;
 }
 .paddingBottom{
     margin-top: 50px;
