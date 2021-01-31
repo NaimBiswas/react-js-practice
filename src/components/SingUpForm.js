@@ -60,6 +60,7 @@ export default class SingUpForm extends Component {
                      <td>
                         
                         <button className='btn  btn-outline-success btn-md'>Submit</button>
+                       <span className='float-right'> If You Are Already Register Please Log-In </span>
                      </td>
                   </tr>
                </tfoot>
