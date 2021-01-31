@@ -19,15 +19,15 @@ const MyRouter = (
         <Router>
         <nav className="nav justify-content-center">
         <li className="nav-link  active"> 
-        <Link className='text-white bg-info p-3 nav-link' to='/'>Home</Link>
+        <Link className='text-white bg-info pl-3 pr-3 pt-2 pb-2 nav-link' to='/'>Home</Link>
         </li>
        
          <li className="nav-link " >
-            <Link className='text-white bg-info p-3 nav-link' to='/singup'>SingUp</Link>
+            <Link className='text-white bg-info pl-3 pr-3 pt-2 pb-2 nav-link' to='/singup'>SingUp</Link>
          </li>
          
          <li className="nav-link " >
-            <Link className='text-white bg-info p-3 nav-link' to='/login'>Login</Link>
+            <Link className='text-white bg-info pl-3 pr-3 pt-2 pb-2 nav-link' to='/login'>Login</Link>
          </li>
                
                
