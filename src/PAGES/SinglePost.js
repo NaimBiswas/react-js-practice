@@ -14,7 +14,7 @@ export class SinglePost extends Component {
                   {/* Post Title  */}
                   <h2 className='mt-4'>This is Your Post Title area</h2>
                   <p>
-                     This is our post description This is our post description This is our post description This is our post description This is our post description This is our post description This is our post description This is our post description This is our post description This is our post description This is our post description This is our post description This is our post description This is our post description This is our post description This is our post description This is our post description This is our post description This is our post description This is our post description This is our post description This is our post description This is our post description This is our post description This is our post description This is our post description This is our post description This is our post description This is our post description This is our post description This is our post description 
+                     This is our post description This is our post description This is our post description This is our post description This is our post description This is our post description This is our post description This is our post description This is our post description This is our post description This is our post description This is our post description This is our post description This is our post description This is our post description This is our post description This is our post description This is our post description This is our post description This is our post description This is our post description This is our post description This is our post description This is our post description This is our post description This is our post description This is our post description This is our post description This is our post description This is our post description This is our post description
                   </p>
                   {/* Post Tag Here  */}
                   <h2 className='text-warning text-uppercase mt-4'>#Tags</h2>
@@ -30,10 +30,10 @@ export class SinglePost extends Component {
                   {/* Realeted Post Here  */}
                   <h2 className='text-warning text-uppercase mt-4 adfadf'>Recomended For You</h2>
                   <div className='row'>
-                  {/* This is one card  */}
+                     {/* This is one card  */}
                      <div className='card-gorup col-lg-6 col-md-6 col-sm-12 mt-2'>
                         <div className='card'>
-                           <img className='card-img-top imageHeight' src={ Image } alt='Card'></img>
+                           <img className='card-img-top imageHeight' src={Image} alt='Card'></img>
                            <div className='card-body'>
                               <h4 className='text-secondary mt-1'>
                                  This is card header
@@ -45,11 +45,11 @@ export class SinglePost extends Component {
                            </div>
                         </div>
                      </div>
-                  
+
                      {/* This is one card  */}
                      <div className='card-gorup col-lg-6 col-md-6 col-sm-12 mt-2'>
                         <div className='card'>
-                           <img className='card-img-top imageHeight' src={ Image } alt='Card'></img>
+                           <img className='card-img-top imageHeight' src={Image} alt='Card'></img>
                            <div className='card-body'>
                               <h4 className='text-secondary mt-1'>
                                  This is card header
@@ -61,11 +61,11 @@ export class SinglePost extends Component {
                            </div>
                         </div>
                      </div>
-                     
+
                      {/* This is one card  */}
                      <div className='card-gorup col-lg-6 col-md-6 col-sm-12 mt-2'>
                         <div className='card'>
-                           <img className='card-img-top imageHeight' src={ Image } alt='Card'></img>
+                           <img className='card-img-top imageHeight' src={Image} alt='Card'></img>
                            <div className='card-body'>
                               <h4 className='text-secondary mt-1'>
                                  This is card header
@@ -77,144 +77,144 @@ export class SinglePost extends Component {
                            </div>
                         </div>
                      </div>
-                     
+
                      {/* This is one card  */}
                      <div className='card-gorup col-lg-6 col-md-6 col-sm-12 mt-2'>
-                     <div className='card'>
-                        <img className='card-img-top imageHeight' src={ Image } alt='Card'></img>
-                        <div className='card-body'>
-                           <h4 className='text-secondary mt-1'>
-                              This is card header
+                        <div className='card'>
+                           <img className='card-img-top imageHeight' src={Image} alt='Card'></img>
+                           <div className='card-body'>
+                              <h4 className='text-secondary mt-1'>
+                                 This is card header
                            </h4>
-                           <p className='text-secondary mt-2'>
-                              This is explame text This is explame text This is explame textThis is explame textThis is explame textThis is explame textThis is explame
+                              <p className='text-secondary mt-2'>
+                                 This is explame text This is explame text This is explame textThis is explame textThis is explame textThis is explame textThis is explame
                            </p>
-                           <button className='btn btn-info btn-md'>Read More</button>
+                              <button className='btn btn-info btn-md'>Read More</button>
+                           </div>
                         </div>
+                     </div>
                   </div>
-            </div>
-            </div>
-               {/* End of Pupular post section  */}
+                  {/* End of Pupular post section  */}
                </div>
                {/* Right Side Bar  */}
                <div className='col-lg-4'>
                   {/* Seacrch Option  */}
                   <div className='row'>
-                  <h2 className='text-warning text-uppercase mt-4 adfadf '>Search</h2>
+                     <h2 className='text-warning text-uppercase mt-4 adfadf '>Search</h2>
                      <input type='text' className='form-control col-lg-9' placeholder='Seacrch....'></input>
                      <button className='col-lg-3 btn btn-outline-danger btn-md'>Search</button>
                   </div>
                   {/* Category Here  */}
                   <h2 className='text-warning text-uppercase mt-4 adfadf '>Categories</h2>
                   <ul className='UlSyle'>
-                     <li  className=' text-info h6 blod pl-4 pt-2 pb-2 text-uppercase LISYYLE'>
+                     <li className=' text-info h6 blod pl-4 pt-2 pb-2 text-uppercase LISYYLE'>
                         Larave 8
                      </li>
-                     <li  className=' text-info h6 blod pl-4 pt-2 pb-2 text-uppercase LISYYLE'>
+                     <li className=' text-info h6 blod pl-4 pt-2 pb-2 text-uppercase LISYYLE'>
                         React v19.0
                      </li>
-                     <li  className=' text-info h6 blod pl-4 pt-2 pb-2 text-uppercase LISYYLE'>
+                     <li className=' text-info h6 blod pl-4 pt-2 pb-2 text-uppercase LISYYLE'>
                         Vuejs 3
                      </li>
-                     <li  className=' text-info h6 blod pl-4 pt-2 pb-2 text-uppercase LISYYLE'>
+                     <li className=' text-info h6 blod pl-4 pt-2 pb-2 text-uppercase LISYYLE'>
                         Javascript ES6
                      </li>
-                     <li  className=' text-info h6 blod pl-4 pt-2 pb-2 text-uppercase LISYYLE'>
+                     <li className=' text-info h6 blod pl-4 pt-2 pb-2 text-uppercase LISYYLE'>
                         HTML5
                      </li>
-                     <li  className=' text-info h6 blod pl-4 pt-2 pb-2 text-uppercase LISYYLE'>
+                     <li className=' text-info h6 blod pl-4 pt-2 pb-2 text-uppercase LISYYLE'>
                         CSS4
                      </li>
-                     <li  className=' text-info h6 blod pl-4 pt-2 pb-2 text-uppercase LISYYLE'>
+                     <li className=' text-info h6 blod pl-4 pt-2 pb-2 text-uppercase LISYYLE'>
                         Bootstrap 5
                      </li>
                   </ul>
-                  
+
                   {/* # tag Area Start Here  */}
                   <h2 className='text-warning text-uppercase mt-4 adfadf '>#Tags</h2>
-                     <ul className='UlSyle'>
-                        <li  className=' text-info h6 blod pl-4 pt-2 pb-2 text-uppercase LISYYLE'>
-                           Larave 8
+                  <ul className='UlSyle'>
+                     <li className=' text-info h6 blod pl-4 pt-2 pb-2 text-uppercase LISYYLE'>
+                        Larave 8
                         </li>
-                        <li  className=' text-info h6 blod pl-4 pt-2 pb-2 text-uppercase LISYYLE'>
-                           React v19.0
+                     <li className=' text-info h6 blod pl-4 pt-2 pb-2 text-uppercase LISYYLE'>
+                        React v19.0
                         </li>
-                        <li  className=' text-info h6 blod pl-4 pt-2 pb-2 text-uppercase LISYYLE'>
-                           Vuejs 3
+                     <li className=' text-info h6 blod pl-4 pt-2 pb-2 text-uppercase LISYYLE'>
+                        Vuejs 3
                         </li>
-                        <li  className=' text-info h6 blod pl-4 pt-2 pb-2 text-uppercase LISYYLE'>
-                           Javascript ES6
+                     <li className=' text-info h6 blod pl-4 pt-2 pb-2 text-uppercase LISYYLE'>
+                        Javascript ES6
                         </li>
-                        <li  className=' text-info h6 blod pl-4 pt-2 pb-2 text-uppercase LISYYLE'>
-                           HTML5
+                     <li className=' text-info h6 blod pl-4 pt-2 pb-2 text-uppercase LISYYLE'>
+                        HTML5
                         </li>
-                        <li  className=' text-info h6 blod pl-4 pt-2 pb-2 text-uppercase LISYYLE'>
-                           CSS4
+                     <li className=' text-info h6 blod pl-4 pt-2 pb-2 text-uppercase LISYYLE'>
+                        CSS4
                         </li>
-                        <li  className=' text-info h6 blod pl-4 pt-2 pb-2 text-uppercase LISYYLE'>
-                           Bootstrap 5
+                     <li className=' text-info h6 blod pl-4 pt-2 pb-2 text-uppercase LISYYLE'>
+                        Bootstrap 5
                         </li>
-                     </ul>
-               
+                  </ul>
+
                   {/* Some Popular post  */}
-                     <h2 className='text-warning text-uppercase mt-4 adfadf '>Popular Post Title</h2>
-                        <ul className='UlSyle'>
-                           <li  className=' h6 blod pl-4 pt-2 pb-2 POstLISYYLE'>
-                              This is your some popular post title
+                  <h2 className='text-warning text-uppercase mt-4 adfadf '>Popular Post Title</h2>
+                  <ul className='UlSyle'>
+                     <li className=' h6 blod pl-4 pt-2 pb-2 POstLISYYLE'>
+                        This is your some popular post title
                            </li>
-                           <li  className=' h6 blod pl-4 pt-2 pb-2 POstLISYYLE'>
-                              This is your some popular post title
+                     <li className=' h6 blod pl-4 pt-2 pb-2 POstLISYYLE'>
+                        This is your some popular post title
                            </li>
-                           
-                           <li  className=' h6 blod pl-4 pt-2 pb-2 POstLISYYLE'>
-                             This is your some popular post title
+
+                     <li className=' h6 blod pl-4 pt-2 pb-2 POstLISYYLE'>
+                        This is your some popular post title
                            </li>
-                           <li  className=' h6 blod pl-4 pt-2 pb-2 POstLISYYLE'>
-                             This is your some popular post title
+                     <li className=' h6 blod pl-4 pt-2 pb-2 POstLISYYLE'>
+                        This is your some popular post title
                            </li>
-                           <li  className=' h6 blod pl-4 pt-2 pb-2 POstLISYYLE'>
-                             This is your some popular post title
+                     <li className=' h6 blod pl-4 pt-2 pb-2 POstLISYYLE'>
+                        This is your some popular post title
                            </li>
-                           <li  className=' h6 blod pl-4 pt-2 pb-2 POstLISYYLE'>
-                             This is your some popular post title
+                     <li className=' h6 blod pl-4 pt-2 pb-2 POstLISYYLE'>
+                        This is your some popular post title
                            </li>
-                           <li  className=' h6 blod pl-4 pt-2 pb-2 POstLISYYLE'>
-                             This is your some popular post title
+                     <li className=' h6 blod pl-4 pt-2 pb-2 POstLISYYLE'>
+                        This is your some popular post title
                            </li>
-                           <li  className=' h6 blod pl-4 pt-2 pb-2 POstLISYYLE'>
-                             This is your some popular post title
+                     <li className=' h6 blod pl-4 pt-2 pb-2 POstLISYYLE'>
+                        This is your some popular post title
                            </li>
-                          
-                           <li  className=' h6 blod pl-4 pt-2 pb-2 POstLISYYLE'>
-                             This is your some popular post title
+
+                     <li className=' h6 blod pl-4 pt-2 pb-2 POstLISYYLE'>
+                        This is your some popular post title
                            </li>
                   </ul>
                   {/* Newslater FOrm  */}
                   <h2 className='text-warning text-uppercase mt-4 adfadf '>Newslatter</h2>
                   <table className='table table-bordered'>
-                    
-                        <thead>
-                           <tr>
-                              <td>
-                              <span className='text-secondary h6'> News Letter </span>
-                              </td>
-                           </tr>
-                        </thead>
-                        <tbody>
-                           <tr>
+
+                     <thead>
+                        <tr>
                            <td>
-                               <form>
+                              <span className='text-secondary h6'> News Letter </span>
+                           </td>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>
+                              <form>
                                  <input className='form-control' type='email' placeholder='Enter Your Email For News Latter....' />
-                                 </form>
-                              </td>
-                           </tr>
-                        </tbody>
-                        <tfoot>
-                           <tr>
-                              <td>
-                                 <button className='float-right btn btn-outline-success btn-md'>Subscribe</button>
-                              </td>
-                           </tr>
+                              </form>
+                           </td>
+                        </tr>
+                     </tbody>
+                     <tfoot>
+                        <tr>
+                           <td>
+                              <button className='float-right btn btn-outline-success btn-md'>Subscribe</button>
+                           </td>
+                        </tr>
                      </tfoot>
                   </table>
                </div>
