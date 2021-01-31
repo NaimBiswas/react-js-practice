@@ -192,7 +192,7 @@ export class SinglePost extends Component {
                   {/* Newslater FOrm  */}
                   <h2 className='text-warning text-uppercase mt-4 adfadf '>Newslatter</h2>
                   <table className='table table-bordered'>
-                     <form>
+                    
                         <thead>
                            <tr>
                               <td>
@@ -202,8 +202,10 @@ export class SinglePost extends Component {
                         </thead>
                         <tbody>
                            <tr>
-                              <td>
+                           <td>
+                               <form>
                                  <input className='form-control' type='email' placeholder='Enter Your Email For News Latter....' />
+                                 </form>
                               </td>
                            </tr>
                         </tbody>
@@ -214,7 +216,6 @@ export class SinglePost extends Component {
                               </td>
                            </tr>
                      </tfoot>
-                  </form>
                   </table>
                </div>
             </div>
