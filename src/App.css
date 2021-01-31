@@ -9,9 +9,14 @@
     background: #0b0b0b26;
     border-radius: 10px;
     font-size: 18px;
-    font-weight: 800;
+    font-weight: 700;
     letter-spacing: 1.5px;
     cursor: pointer;
+}
+.POstLISYYLE{
+       background: #ff000024;
+       color: #5e5e5e;
+    
 }
 .paddingBottom{
     margin-top: 50px;

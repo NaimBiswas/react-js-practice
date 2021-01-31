@@ -129,6 +129,71 @@ export class SinglePost extends Component {
                         Bootstrap 5
                      </li>
                   </ul>
+                  
+                  {/* # tag Area Start Here  */}
+                  <h2 className='text-warning text-uppercase mt-4 adfadf '>#Tags</h2>
+                     <ul className='UlSyle'>
+                        <li  className=' text-info h6 blod pl-4 pt-2 pb-2 text-uppercase LISYYLE'>
+                           Larave 8
+                        </li>
+                        <li  className=' text-info h6 blod pl-4 pt-2 pb-2 text-uppercase LISYYLE'>
+                           React v19.0
+                        </li>
+                        <li  className=' text-info h6 blod pl-4 pt-2 pb-2 text-uppercase LISYYLE'>
+                           Vuejs 3
+                        </li>
+                        <li  className=' text-info h6 blod pl-4 pt-2 pb-2 text-uppercase LISYYLE'>
+                           Javascript ES6
+                        </li>
+                        <li  className=' text-info h6 blod pl-4 pt-2 pb-2 text-uppercase LISYYLE'>
+                           HTML5
+                        </li>
+                        <li  className=' text-info h6 blod pl-4 pt-2 pb-2 text-uppercase LISYYLE'>
+                           CSS4
+                        </li>
+                        <li  className=' text-info h6 blod pl-4 pt-2 pb-2 text-uppercase LISYYLE'>
+                           Bootstrap 5
+                        </li>
+                     </ul>
+               
+                  {/* Some Popular post  */}
+                     <h2 className='text-warning text-uppercase mt-4 adfadf '>Popular Post Title</h2>
+                        <ul className='UlSyle'>
+                           <li  className=' h6 blod pl-4 pt-2 pb-2 POstLISYYLE'>
+                              This is your some popular post title
+                           </li>
+                           <li  className=' h6 blod pl-4 pt-2 pb-2 POstLISYYLE'>
+                              This is your some popular post title
+                           </li>
+                           
+                           <li  className=' h6 blod pl-4 pt-2 pb-2 POstLISYYLE'>
+                             This is your some popular post title
+                           </li>
+                           <li  className=' h6 blod pl-4 pt-2 pb-2 POstLISYYLE'>
+                             This is your some popular post title
+                           </li>
+                           <li  className=' h6 blod pl-4 pt-2 pb-2 POstLISYYLE'>
+                             This is your some popular post title
+                           </li>
+                           <li  className=' h6 blod pl-4 pt-2 pb-2 POstLISYYLE'>
+                             This is your some popular post title
+                           </li>
+                           <li  className=' h6 blod pl-4 pt-2 pb-2 POstLISYYLE'>
+                             This is your some popular post title
+                           </li>
+                           <li  className=' h6 blod pl-4 pt-2 pb-2 POstLISYYLE'>
+                             This is your some popular post title
+                           </li>
+                          
+                           <li  className=' h6 blod pl-4 pt-2 pb-2 POstLISYYLE'>
+                             This is your some popular post title
+                           </li>
+                        </ul>
+                  
+               
+              
+              
+              
                </div>
             </div>
          </div>
