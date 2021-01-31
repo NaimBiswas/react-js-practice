@@ -40,7 +40,7 @@ export default class Login extends Component {
                   <tr>
                      <td>
                         
-                        <button className='btn  btn-outline-success btn-md'>Submit</button>
+                        <button className='btn  btn-outline-success btn-md'>Login</button>
                        <span className='float-right'> If You Are Already Not A Member of This Site  Please <Link to='/singup'>Register</Link>   </span>
                      </td>
                   </tr>
