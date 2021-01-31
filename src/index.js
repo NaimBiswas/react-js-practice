@@ -13,6 +13,9 @@ import Footer from './PAGES/Footer';
 
 
 const MyRouter = (
+   <div>
+      
+   
    <div className='container pt-4 pb-4 text-white'>
         <Router>
       <nav className="nav justify-content-center">
@@ -29,8 +32,9 @@ const MyRouter = (
    </div>
        
       </Router> 
+      </div>
       <Footer></Footer>
-   </div>
+      </div>
    
 )
 // ReactDOM.render(MyRouter, document.getElementById('root'))
