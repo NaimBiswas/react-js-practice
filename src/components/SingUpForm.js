@@ -1,14 +1,18 @@
 import React, { Component } from 'react'
-
+import "../App.css"
+import { Route, Link, BrowserRouter as Router} from 'react-router-dom'
+import Home from '../PAGES/Home'
 export default class SingUpForm extends Component {
    render() {
+      <Router><Route path='/' component={Home}></Route></Router>
       return (
          <div className='pt-4 col-lg-8 offset-lg-2'>
             <table className='table table-bordered'>
                <thead>
-                  <tr>
-                  <td className='text-secondary'>
-                     Registration Form
+                  <tr className=''>
+                  <td className='text-secondary '>
+                       <span className=''>Registration Form</span> 
+                        <Link to='/'><button className='btn btn-outline-danger btn-md float-right'>Home</button></Link> 
                   </td>
                </tr>
                </thead>

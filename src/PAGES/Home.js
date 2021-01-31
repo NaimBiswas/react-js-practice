@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import BlogImage from '../blogimage.png'
 import "../App.css"
-import Footer from './Footer';
 
 
 export class Home extends Component {
@@ -293,7 +292,7 @@ export class Home extends Component {
              
              </div>
               {/* This is one card  */}
-             <Footer></Footer>
+             
               
           </div>
       )

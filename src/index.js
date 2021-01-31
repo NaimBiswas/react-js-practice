@@ -9,6 +9,7 @@ import About from './components/About';
 import Portfolio from './components/Portfolio';
 import SingUpForm from './components/SingUpForm';
 import Home from './PAGES/Home';
+import Footer from './PAGES/Footer';
 
 
 const MyRouter = (
@@ -27,7 +28,8 @@ const MyRouter = (
          <Route path='/singup' component={SingUpForm}></Route>
    </div>
        
-   </Router> 
+      </Router> 
+      <Footer></Footer>
    </div>
    
 )
