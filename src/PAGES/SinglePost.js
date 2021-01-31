@@ -98,7 +98,13 @@ export class SinglePost extends Component {
                </div>
                {/* Right Side Bar  */}
                <div className='col-lg-4'>
-                  
+                  {/* Seacrch Option  */}
+                  <div className='row'>
+                  <h2 className='text-warning text-uppercase mt-4 adfadf '>Search</h2>
+                     <input type='text' className='form-control col-lg-9' placeholder='Seacrch....'></input>
+                     <button className='col-lg-3 btn btn-outline-danger btn-md'>Search</button>
+                     
+                  </div>
                </div>
             </div>
          </div>
