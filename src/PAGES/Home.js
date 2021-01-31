@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
 import BlogImage from '../blogimage.png'
 import "../App.css"
-
+import  {Route, Link, BrowserRouter as Router} from 'react-router-dom'
+import SinglePost from './SinglePost';
 
 export class Home extends Component {
    render() {
+      <Router><Route path='/post' component={SinglePost}></Route></Router>
       return (
          <div className='mt-4 '>
             
@@ -23,7 +25,7 @@ export class Home extends Component {
                         <p className='text-secondary mt-2'>
                            This is explame text This is explame text This is explame textThis is explame textThis is explame textThis is explame textThis is explame
                         </p>
-                        <button className='btn btn-info btn-md'>Read More</button>
+                        <Link to='/post'><button className='btn btn-info btn-md'>Read More</button></Link>
                      </div>
                   </div>
                </div>
@@ -39,7 +41,7 @@ export class Home extends Component {
                         <p className='text-secondary mt-2'>
                            This is explame text This is explame text This is explame textThis is explame textThis is explame textThis is explame textThis is explame
                         </p>
-                        <button className='btn btn-info btn-md'>Read More</button>
+                        <Link to='/post'><button className='btn btn-info btn-md'>Read More</button></Link>
                      </div>
                   </div>
                </div>
@@ -55,7 +57,7 @@ export class Home extends Component {
                         <p className='text-secondary mt-2'>
                            This is explame text This is explame text This is explame textThis is explame textThis is explame textThis is explame textThis is explame
                         </p>
-                        <button className='btn btn-info btn-md'>Read More</button>
+                       <Link to='/post'><button className='btn btn-info btn-md'>Read More</button></Link>
                      </div>
                   </div>
                </div>
@@ -71,7 +73,7 @@ export class Home extends Component {
                      <p className='text-secondary mt-2'>
                         This is explame text This is explame text This is explame textThis is explame textThis is explame textThis is explame textThis is explame
                      </p>
-                     <button className='btn btn-info btn-md'>Read More</button>
+                    <Link to='/post'><button className='btn btn-info btn-md'>Read More</button></Link>
                   </div>
                </div>
             </div>
