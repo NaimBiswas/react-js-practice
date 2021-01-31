@@ -11,8 +11,8 @@ export default class Login extends Component {
                <thead>
                   <tr className=''>
                   <td className='text-secondary '>
-                       <span className=''>Registration Form</span> 
-                        <Link to='/'><button className='btn btn-outline-danger btn-md float-right'>Home</button></Link> 
+                       <span className=''>Log-In Form</span> 
+                        <Link to='/'><button className='btn btn-outline-danger btn-md float-right'>Go Back</button></Link> 
                   </td>
                </tr>
                </thead>
@@ -24,12 +24,12 @@ export default class Login extends Component {
                         {/* First name section        */}
                         <div className="form-group">
                            <label  className='text-secondary'>Email Address</label>
-                           <input type="text" name="" id="fistname" className="form-control" placeholder=""      aria-describedby="helpId"/>
+                           <input type="email" name="" id="fistname" className="form-control" placeholder="Enter Your Email...."      aria-describedby="helpId"/>
                            </div>
                            {/* First name section        */}
                         <div className="form-group">
                            <label className='text-secondary'>Password</label>
-                           <input type="text" name="" id="" className="form-control" placeholder=""      aria-describedby="helpId"/>
+                           <input type="password" name="" id="" className="form-control" placeholder="Enter Your Password"      aria-describedby="helpId"/>
                            </div>
                            {/* First name section        */}
                         </form>
@@ -41,7 +41,7 @@ export default class Login extends Component {
                      <td>
                         
                         <button className='btn  btn-outline-success btn-md'>Submit</button>
-                       <span className='float-right'> If You Are Already Register Please <Link to='/login'>Log-In</Link>   </span>
+                       <span className='float-right'> If You Are Already Not A Member of This Site  Please <Link to='/singup'>Register</Link>   </span>
                      </td>
                   </tr>
                </tfoot>

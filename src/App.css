@@ -1,6 +1,10 @@
 .App {
   text-align: center;
 }
+.paddingBottom{
+    margin-top: 50px;
+    margin-bottom: 90px;
+}
 .dfadfad{
    
    justify-content: space-between;
